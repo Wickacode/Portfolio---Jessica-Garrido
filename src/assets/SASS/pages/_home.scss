@@ -1,0 +1,40 @@
+.home-elements {
+  display: flex;
+  border: 2px solid red;
+  width: auto;
+
+  .name-container {
+    width: 30%;
+    height: auto;
+    margin-left: 150px;
+    h1 {
+      color: white;
+      font-size: 150px;
+      font-family: "Questrial", sans-serif;
+    }
+    h1:hover {
+      text-shadow:0 0 2px #FFD100,0 0 30px #FFD100,0px 0px 5px #FFD100, 0 0 150px #FFD100;color:#FFD100;
+
+    }
+  }
+
+  .profile-pictures {
+    display: flex;
+    gap: 1em;
+    width: fit-content;
+
+    img {
+      width: 300px;
+      filter: grayscale(100%);
+    }
+    img:hover {
+      filter: none;
+
+    }
+  }
+}
+
+
+
+
+
