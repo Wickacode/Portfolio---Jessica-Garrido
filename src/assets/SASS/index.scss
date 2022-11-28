@@ -2,12 +2,14 @@
 @import "helpers/mixins";
 
 @import "base/base";
+
 @import "layout/navbar";
-// @import "layout/footer";
+@import "layout/socialNetworks";
+@import "layout/form";
 // @import "layout/reseaux";
 
 @import "pages/home";
-// @import "pages/skills";
+@import "pages/skills";
 // @import "pages/projects";
-// @import "pages/contact";
+@import "pages/contact";
 

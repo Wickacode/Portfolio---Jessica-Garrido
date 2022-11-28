@@ -1,0 +1,24 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+  .contact-details {
+    border: 2px solid blue;
+    width: fit-content;
+    .contact {
+      display: flex;
+      font-family: "Questrial", sans-serif;
+      .icone {
+        display: flex;
+        align-items: center;
+        margin: 20px;
+        color: white;
+        font-size: 25px;
+      }
+      .title, .text {
+        color: white;
+      }
+
+    }
+  }
+}

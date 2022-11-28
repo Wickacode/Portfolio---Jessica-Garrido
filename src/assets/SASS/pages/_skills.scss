@@ -1,0 +1,28 @@
+.skills-container {
+
+   .title-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+        color: white;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+} 
+
+.skills-container {
+    width: 100%;
+    border: 2px solid red;
+
+    .skills {
+        width: 200px;
+        height: 200px;
+        background-color: antiquewhite;
+    }
+}
+}
