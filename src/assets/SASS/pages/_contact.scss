@@ -1,13 +1,21 @@
 .contact-container {
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
+  margin-top: 40px;
+
+  .container-right {
+    font-family: "Questrial", sans-serif;
+    width: 100%;
+  }
   .contact-details {
-    border: 2px solid blue;
-    width: fit-content;
+    
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: auto;
+    
     .contact {
-      display: flex;
-      font-family: "Questrial", sans-serif;
+     display: inline-flex;
       .icone {
         display: flex;
         align-items: center;
