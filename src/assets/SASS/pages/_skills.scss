@@ -1,4 +1,5 @@
 .skills-container {
+    margin-top: 40px;
 
    .title-description {
     display: flex;
@@ -14,15 +15,4 @@
     }
 
 } 
-
-.skills-container {
-    width: 100%;
-    border: 2px solid red;
-
-    .skills {
-        width: 200px;
-        height: 200px;
-        background-color: antiquewhite;
-    }
-}
 }

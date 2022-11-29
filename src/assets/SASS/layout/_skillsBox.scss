@@ -1,0 +1,36 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+
+    ul {
+        width: 500px;
+
+        h2 {
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+        h2:hover {
+          color: rgb(91, 169, 72);  
+          text-decoration: double;
+        }
+
+        h2:hover + .list-skills {
+            display: contents;
+        }
+
+        .list-skills {
+            display: none;
+            width: 200px;
+
+            li {
+                font-size: 1rem;
+                color: white;
+                margin: 20px 0;
+
+            }
+        }
+    }
+}
