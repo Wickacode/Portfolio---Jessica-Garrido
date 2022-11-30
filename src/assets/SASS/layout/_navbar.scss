@@ -1,7 +1,10 @@
 .navbar {
   display: flex;
+  justify-content: right;
   gap: 1rem;
   margin-top: 100px;
+  max-width: 1263px;
+  margin: auto;
 
   a {
     color: white;
