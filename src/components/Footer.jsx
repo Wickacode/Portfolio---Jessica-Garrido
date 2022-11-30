@@ -13,9 +13,9 @@ export default function Footer() {
           </div>
 
           <div className="footer-social">
-            <a href="#"><i class="fa-brands fa-square-github"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i className="fa-brands fa-square-github"></i></a>
+            <a href="#"><i className="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i className="fa-brands fa-instagram"></i></a>
           </div>
 
           <p className="footer-disclaimer">
