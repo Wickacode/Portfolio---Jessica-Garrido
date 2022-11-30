@@ -3,7 +3,7 @@ import SkillsBox from "../components/SkillsBox";
 
 export default function Skills() {
   return (
-    <div className="skills-container">
+    <div className="skills-container width-contain">
       <div className="title-description">
         <h2>Skills</h2>
         <p>

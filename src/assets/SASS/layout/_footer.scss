@@ -1,0 +1,46 @@
+.footer-container {
+  background-color: rgb(135, 155, 172);
+  margin-bottom: 0;
+  h4 {
+    padding: 20px 0 0 20px;
+    margin: 0;
+  }
+
+  .footer-infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+
+    .footer-about {
+      flex-direction: row !important;
+
+      p {
+        color: black;
+      }
+    }
+    .footer-social {
+      border: 2px solid blue;
+
+      a {
+        border: 2px solid red;
+        color: white;
+
+        .fa-brands {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+  .footer-disclaimer {
+    text-align: center;
+    color: black;
+  }
+}
+
+.width-footer {
+  max-width: 1400px;
+  margin: auto;
+  min-height: fit-content;
+}

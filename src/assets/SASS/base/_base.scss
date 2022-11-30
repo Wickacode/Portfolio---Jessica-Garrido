@@ -7,10 +7,15 @@
 }
 
 body {
-  margin: 0 15%;
   background-color: #1E1C1C;
 }
 
 p {
   color: white;
+}
+
+.width-contain {
+  max-width: 1400px;
+  margin: auto;
+  min-height: fit-content;
 }

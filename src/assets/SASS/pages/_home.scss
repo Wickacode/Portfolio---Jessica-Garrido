@@ -1,61 +1,111 @@
 .home-container {
   .home-elements {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
-  .name-container {
-    width: 30%;
-    height: auto;
-    h1 {
-      color: white;
-      font-size: 150px;
-      font-family: "Questrial", sans-serif;
+    .name-container {
+      width: fit-content;
+      height: auto;
+      h1 {
+        color: white;
+        font-size: 150px;
+        font-family: "Questrial", sans-serif;
+      }
+      h1:hover {
+        text-shadow: 0 0 2px #ffd100, 0 0 30px #ffd100, 0px 0px 5px #ffd100,
+          0 0 150px #ffd100;
+        color: #ffd100;
+      }
     }
-    h1:hover {
-      text-shadow:0 0 2px #FFD100,0 0 30px #FFD100,0px 0px 5px #FFD100, 0 0 150px #FFD100;color:#FFD100;
 
+    .profile-pictures {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      width: fit-content;
+      margin-bottom: 30px;
+
+      img {
+        width: 300px;
+        filter: grayscale(100%);
+      }
+      img:hover {
+        filter: none;
+      }
     }
   }
+  hr {
+    margin-bottom: 35px;
+  }
 
-  .profile-pictures {
+  .profile-description {
     display: flex;
-    gap: 1em;
-    width: fit-content;
-    padding-right: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    h2 {
+      color: white;
+      font-family: "Questrial", sans-serif;
+      font-weight: 400;
+      margin: 0;
+    }
+
+    p {
+      font-family: "Questrial", sans-serif;
+      text-align: center;
+      width: 620px;
+    }
+  }
+}
+
+//RESPONSIVE TABLETTE
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .profile-description {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .name-container {
+    h1 {
+      font-size: 95px !important ;
+    }
+  }
+  .profile-pictures {
+    justify-content: center;
 
     img {
-      width: 300px;
-      filter: grayscale(100%);
-    }
-    img:hover {
-      filter: none;
-
+      width: 250px !important;
     }
   }
-}
-
-.profile-description {
-  display: flex;
-  justify-content: space-between;
-
-  h2 {
-    color: white;
-    font-family: "Questrial", sans-serif;
-    font-weight: 400;
-  }
-
-  p {
-    font-family: "Questrial", sans-serif;
-    width: 620px;
-    padding-right: 50px;
+  .profile-description {
+    p {
+     text-align: center;
+      padding: 20px;
+    }
   }
 }
+
+//RESPONSIVE MOBILE
+@media screen and (min-width: 0) and (max-width: 425px) {
+  .name-container {
+    h1 {
+      font-size: 85px !important;
+    }
+  }
+  .profile-pictures {
+    justify-content: center;
+
+    img {
+      width: 200px !important;
+    }
+  }
+  .profile-description {
+    p {
+      text-align: center;
+      padding: 20px;
+    }
+  }
 }
-
-
-
-
-
-
