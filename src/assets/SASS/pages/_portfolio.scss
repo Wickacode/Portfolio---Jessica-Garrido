@@ -1,0 +1,65 @@
+#portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .projects {
+      width: 50%;
+    }
+    .projects video {
+      width: 100%;
+      height: 100%;
+    }
+
+    .projects video:hover {
+      filter: none;
+    }
+  }
+
+  .projects-leftSpace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+
+    .projects-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 60%;
+      background-color: rgb(192, 156, 135);
+    }
+    .projects-details h2 {
+      font-size: 2rem;
+    }
+    .projects-details p {
+      color: blue;
+    }
+    .projects-details ul {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .fa-brands {
+      font-size: 25px;
+      background-color: aliceblue;
+      padding: 10px;
+      border-radius: 100px;
+    }
+    .next-slide-container {
+      width: 40%;
+      height: 100%;
+      background-color: azure;
+    }
+  }
+}

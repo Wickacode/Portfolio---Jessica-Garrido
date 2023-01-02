@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  justify-content: right;
+  justify-content: left;
   gap: 1rem;
   margin-top: 100px;
   max-width: 1400px;
@@ -11,7 +11,26 @@
     font-family: "Questrial", sans-serif;
     font-size: 2em;
     text-transform: uppercase;
+    
   }
+
+  .a01:hover {
+    color: #1f2c4d;
+  }
+
+  .a02:hover {
+    color: #525ea4;
+  }
+
+  .a03:hover {
+    color: #9999fa;
+  }
+
+  .a04:hover {
+    color: #f9e0f6;
+  }
+
+
 }
 
 @media screen and (min-width: 0) and (max-width: 425px) {

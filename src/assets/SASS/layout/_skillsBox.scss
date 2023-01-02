@@ -1,36 +1,116 @@
 .skills {
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
 
-    ul {
-        width: 500px;
+  h2 {
+    color: aliceblue;
+  }
 
-        h2 {
-            color: white;
-            font-size: 2rem;
-            cursor: pointer;
-        }
-        h2:hover {
-          color: rgb(91, 169, 72);  
-          text-decoration: double;
-        }
-
-        h2:hover + .list-skills {
-            display: contents;
-        }
-
-        .list-skills {
-            display: none;
-            width: 200px;
-
-            li {
-                font-size: 1rem;
-                color: white;
-                margin: 20px 0;
-
-            }
-        }
-    }
+  .skills-main {
+  width: 240px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #141310;
+  border-radius: 15px;
+  padding: 20px;
+  gap: 1em;
+  box-shadow: 14px 14px 8px -11px rgba(122, 61, 61, 0.75);
+  -webkit-box-shadow: 14px 14px 8px -11px rgba(122, 61, 61, 0.75);
+  -moz-box-shadow: 14px 14px 8px -11px rgba(122, 61, 61, 0.75);
 }
+
+.box-skills-container {
+  display: flex;
+  padding: 10px;
+  height: 25%;
+  background-color: #c9c9c9;
+  border-radius: 15px;
+
+  .box-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    i {
+      font-size: 40px;
+      text-shadow: -3px 5px 6px rgba(0,0,0,0.5);
+      
+    }
+
+    .fa-html5 {
+      color: #ca4021;
+      
+    }
+    .fa-css3-alt {
+        color: #2965f1;
+    }
+    .fa-js {
+        color: #F0DB4F;
+    }
+  }
+ 
+  }
+  .box-skill-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+
+    h2 {
+      text-transform: uppercase;
+      margin-block-start: 0;
+      font-size: 15px;
+      color: rgb(51, 45, 45);
+    }
+
+    p {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      color: rgb(51, 45, 45);
+    }
+  }
+
+  // Skills Bar
+
+  .skillBar {
+    margin-top: 10px;
+    width: 100px;
+    background-color: #ca4021;
+    height: 4px;
+    border-radius: 10px;
+    .html,
+    .css,
+    .javaScript {
+      height: 4px;
+      border-radius: 10px;
+    }
+
+    .html {
+      width: 75px;
+      background-color: antiquewhite;
+    }
+    .css {
+      width: 60px;
+      background-color: antiquewhite;
+    }
+    .javaScript {
+      width: 40px;
+      background-color: antiquewhite;
+    }
+  }
+
+}
+
+  
+
+
+ 
