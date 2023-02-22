@@ -1,14 +1,15 @@
-import React from "react";
-import Form from "../components/Form";
+import React, {Fragment, useState, useEffect} from "react";
+import axios from 'axios';
+import ContactForm from "../components/Form";
 import SocialNetwork from "../components/SocialNetwork";
 
 export default function Contact() {
   return (
-    <div className="contact-container width-contain">
+    <div className="contact-container">
 
-      <Form />
+      <ContactForm />
       
-      <div className="container-right">
+       {/* <div className="container-right">
         <div className="contact-details">
           <div className="contact">
             <i className="icone fa-regular fa-envelope"></i>
@@ -25,8 +26,8 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <SocialNetwork />
-      </div>
+        <SocialNetwork /> */}
+
     </div>
   );
 }

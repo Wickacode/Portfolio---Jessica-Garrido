@@ -1,0 +1,22 @@
+{
+    "data": [
+    {
+    "id":1,
+    "techno": "HTML",
+    "logo": "html5",
+    "score": "70"
+    },
+    {
+    "id":2,
+    "techno": "CSS",
+    "logo": "css3",
+    "score": "70"   
+    },
+    {
+    "id":3,
+    "techno": "JS",
+    "logo": "javascript",
+    "score": "50"
+    }
+    ]
+}

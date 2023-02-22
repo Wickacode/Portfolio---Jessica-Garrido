@@ -1,0 +1,23 @@
+{
+    "data": [
+    {
+    "id":1,
+    "techno": "Visual Studio Code",
+    "logo": "vscode",
+    "score": "70",
+    "cat": "backend"
+    },
+    {
+    "id":2,
+    "techno": "Github",
+    "logo": "github",
+    "score": "70"
+    },
+    {
+    "id":3,
+    "techno": "Figma",
+    "logo": "figma",
+    "score": "50"
+    }
+    ]
+}

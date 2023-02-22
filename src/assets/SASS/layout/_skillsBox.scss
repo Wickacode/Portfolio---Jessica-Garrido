@@ -2,61 +2,38 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   margin: auto;
+  border: 2px solid red;
+  gap: 2em;
 
   h2 {
     color: aliceblue;
   }
 
   .skills-main {
-  width: 240px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #141310;
-  border-radius: 15px;
-  padding: 20px;
-  gap: 1em;
-  box-shadow: 14px 14px 8px -11px rgba(122, 61, 61, 0.75);
-  -webkit-box-shadow: 14px 14px 8px -11px rgba(122, 61, 61, 0.75);
-  -moz-box-shadow: 14px 14px 8px -11px rgba(122, 61, 61, 0.75);
-}
-
-.box-skills-container {
-  display: flex;
-  padding: 10px;
-  height: 25%;
-  background-color: #c9c9c9;
-  border-radius: 15px;
-
-  .box-skill {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    i {
-      font-size: 40px;
-      text-shadow: -3px 5px 6px rgba(0,0,0,0.5);
-      
-    }
+    width: 25%;
+    padding: 10px;
+    border: 2px solid blue;
+    gap: 1em;
 
-    .fa-html5 {
-      color: #ca4021;
-      
-    }
-    .fa-css3-alt {
-        color: #2965f1;
-    }
-    .fa-js {
-        color: #F0DB4F;
-    }
+      .box-skills-container {
+        border: 2px solid salmon;
+        display: flex;
+
+          .img-logo > img {
+            background-color: aliceblue;
+          width: 100px;
+          height: 100px;
+  
+        }
+
+        
+      }
   }
- 
-  }
+
+  
   .box-skill-details {
     display: flex;
     flex-direction: column;
@@ -99,6 +76,7 @@
       background-color: antiquewhite;
     }
     .css {
+      @include flex;
       width: 60px;
       background-color: antiquewhite;
     }
@@ -109,8 +87,3 @@
   }
 
 }
-
-  
-
-
- 
