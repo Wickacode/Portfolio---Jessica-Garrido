@@ -1,22 +1,35 @@
 {
-    "data": [
+    "frontLogos": [
     {
-    "id":1,
-    "techno": "HTML",
-    "logo": "html5",
-    "score": "70"
+    "image": "./frontSvg/html.svg",
+    "alt": "logo html",
+    "title": "HTML"
     },
     {
-    "id":2,
-    "techno": "CSS",
-    "logo": "css3",
-    "score": "70"   
+    "image": "./frontSvg/css.svg",
+    "alt": "logo css",
+    "title": "CSS"
     },
     {
-    "id":3,
-    "techno": "JS",
-    "logo": "javascript",
-    "score": "50"
+    "image": "./frontSvg/js.svg",
+    "alt": "logo js",
+    "title": "Javascript"
+    },
+    {
+    "image": "./frontSvg/bootstrap.svg",
+    "alt": "logo bootstrap",
+    "title": "Bootstrap"
+    },
+    {
+    "image": "./frontSvg/vuejs.svg",
+    "alt": "logo vuejs",
+    "title": "Vue.js"
+    },
+    {
+    "image": "./frontSvg/react.svg",
+    "alt": "logo react",
+    "title": "React"
     }
+    
     ]
 }

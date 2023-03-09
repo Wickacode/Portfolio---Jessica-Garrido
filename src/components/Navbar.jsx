@@ -1,13 +1,39 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 
-export default function Navbar() {
-    return (
-        <div className='navbar'>
-            <Link to="/"> <span className='a01'>Accueil</span></Link>
-            <Link to="/skills"> <span className='a02'>Skills</span></Link>
-            <Link to="/portfolio"><span className='a03'>Portfolio</span></Link>
-            <Link to="/contact"><span className='a04'>Contact</span></Link>
-            </div>
-    )
+export default function Menu() {
+    const location = useLocation();
+  const [currentPageUrl, setCurrentPageUrl] = useState("");
+
+  useEffect(() => {
+    setCurrentPageUrl(window.location.pathname);
+  }, [location]);
+
+  return (
+    <nav className="navbar">
+      <ul>
+        <li className={currentPageUrl === "/" ? "active" : ""}>
+          <Link to="/" className="a01" activeclassname="active-link">
+            Accueil
+          </Link>
+        </li>
+        <li className={currentPageUrl === "/skills" ? "active" : ""}>
+          <Link to="/skills" activeclassname="active-link" className="a02">
+            Skills
+          </Link>
+        </li>
+        <li className={currentPageUrl === "/portfolio" ? "active" : ""}>
+          <Link to="/portfolio" activeclassname="active-link" className="a03">
+            Portfolio
+          </Link>
+        </li>
+        <li className={currentPageUrl === "/contact" ? "active" : ""}>
+          <Link to="/contact" className="a04">
+            Contact
+          </Link>
+        </li>
+      </ul>
+    </nav>
+  );
 }

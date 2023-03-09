@@ -2,39 +2,43 @@
   display: flex;
   justify-content: left;
   gap: 1rem;
-  margin-top: 100px;
   max-width: 1400px;
-  margin: 50px auto 0;
+  padding-left: 200px;
+  padding-top: 60px;
 
-  a {
-    color: white;
-    font-family: "Questrial", sans-serif;
-    font-size: 2em;
-    text-transform: uppercase;
-    
+   .active {
+    border-bottom: 2px solid #e0dad7;
+    -webkit-animation: slide-active-links 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-active-links 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+  ul {
+    display: flex;
+    gap: 1em;
+
+  
+    a {
+      color: white;
+      font-family: "Questrial", sans-serif;
+      font-size: 2em;
+      text-transform: uppercase;
+    }
+
+    .a01:hover {
+      color: #f8b595;
+    }
+
+    .a02:hover {
+      color: #f67280;
+    }
+
+    .a03:hover {
+      color: #c06c84;
+    }
+
+    .a04:hover {
+      color: #8a1253;
+    }
   }
-
-  a:active {
-    text-decoration: underline;
-  }
-
-  .a01:hover {
-    color: #1f2c4d;
-  }
-
-  .a02:hover {
-    color: #525ea4;
-  }
-
-  .a03:hover {
-    color: #9999fa;
-  }
-
-  .a04:hover {
-    color: #f9e0f6;
-  }
-
-
 }
 
 @media screen and (min-width: 0) and (max-width: 425px) {
@@ -55,4 +59,16 @@
 
 //RESPONSIVE MOBILE
 @media screen and (min-width: 0) and (max-width: 425px) {
+}
+
+//active underline animation 
+@keyframes slide-active-links {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+            transform: translateZ(160px);
+  }
 }

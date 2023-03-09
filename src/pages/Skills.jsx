@@ -11,7 +11,7 @@ export default function Skills() {
           eveniet?
         </p>
       </div>
-      <div className="skills-container">
+      <div>
         <SkillsBox />
 
         <div className="profile-container">
