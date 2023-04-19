@@ -1,35 +1,35 @@
 {
-    "frontLogos": [
-    {
-    "image": "./frontSvg/html.svg",
-    "alt": "logo html",
-    "title": "HTML"
-    },
-    {
-    "image": "./frontSvg/css.svg",
-    "alt": "logo css",
-    "title": "CSS"
-    },
-    {
-    "image": "./frontSvg/js.svg",
-    "alt": "logo js",
-    "title": "Javascript"
-    },
-    {
-    "image": "./frontSvg/bootstrap.svg",
-    "alt": "logo bootstrap",
-    "title": "Bootstrap"
-    },
-    {
-    "image": "./frontSvg/vuejs.svg",
-    "alt": "logo vuejs",
-    "title": "Vue.js"
-    },
-    {
-    "image": "./frontSvg/react.svg",
-    "alt": "logo react",
-    "title": "React"
-    }
-    
+    "frontSkills": [
+      {
+        "name": "Html",
+        "image": "https://imgur.com/mSwqti2.png",
+        "url": "https://developer.mozilla.org/fr/docs/Web/HTML"
+      },
+      {
+        "name": "Css",
+        "image": "https://imgur.com/5DwQkXW.png",
+        "url": "https://developer.mozilla.org/fr/docs/Web/CSS/Reference"
+      },
+      {
+        "name": "Javascript",
+        "image": "https://imgur.com/OQFzeSQ.png",
+        "url": "https://devdocs.io/javascript/"
+      },
+      {
+        "name": "Bootstrap",
+        "image": "https://imgur.com/vLA8qVp.png",
+        "url": "https://getbootstrap.com/docs/4.1/getting-started/introduction/"
+      },
+      {
+        "name": "Vuejs",
+        "image": "https://imgur.com/xe75of2.png",
+        "url": "https://vuejs.org/guide/introduction.html"
+      },
+      {
+        "name": "React",
+        "image": "https://imgur.com/sBLKLCy.png",
+        "url": "https://reactjs.org/docs/getting-started.html"
+      }
     ]
-}
+  }
+  

@@ -1,23 +1,29 @@
 {
-    "data": [
-    {
-    "id":1,
-    "techno": "Visual Studio Code",
-    "logo": "vscode",
-    "score": "70",
-    "cat": "backend"
-    },
-    {
-    "id":2,
-    "techno": "Github",
-    "logo": "github",
-    "score": "70"
-    },
-    {
-    "id":3,
-    "techno": "Figma",
-    "logo": "figma",
-    "score": "50"
-    }
+    "technosSkills": [
+      {
+        "name": "Github",
+        "image": "https://imgur.com/zH0e7lc.png",
+        "url": "https://docs.github.com/"
+      },
+      {
+        "name": "Visual Studio Code",
+        "image": "https://imgur.com/WWX006H.png",
+        "url": "https://code.visualstudio.com/docs"
+      },
+      {
+        "name": "Figma",
+        "image": "https://imgur.com/ZFpfeJM.png",
+        "url": "https://www.figma.com/fr/"
+      },
+      {
+        "name": "MongoDB",
+        "image": "https://imgur.com/gn3scuy.png",
+        "url": "https://www.mongodb.com/ja-jp/cloud/atlas/register?utm_content=rlsapostreg&utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_general_retarget-brand-postreg_gic-null_emea-all_ps-all_desktop_eng_lead&utm_term=&utm_medium=cpc_paid_search&utm_ad=&utm_ad_campaign_id=14412646473&adgroup=131761130372&cq_cmp=14412646473&gclid=Cj0KCQiAx6ugBhCcARIsAGNmMbhVzyqwQpWOYXZ2OBj4TM2khS5HnB0rEay_fZncEgj_x5QoKWw7OeIaAq9REALw_wcB"
+      },
+      {
+        "name": "Npm",
+        "image": "https://imgur.com/eUj0WU3.png",
+        "url": "https://docs.npmjs.com/"
+      }
     ]
-}
+  }

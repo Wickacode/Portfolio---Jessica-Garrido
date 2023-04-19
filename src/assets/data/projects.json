@@ -2,45 +2,66 @@
     "articles": [
       {
         "id": 1,
+        "image": "https://imgur.com/n6deppK.png",
+        "title": "Kidaia Environnement",
+        "subtitle": "Découvrez l'écologie",
+        "content": " J'ai eu le plaisir de réaliser la landing page de Kidaia Environnement, projet prévoyant de faire naître l'enthousiasme pour l'écologie et le développement durable."
+      },
+      {
+        "id": 2,
+        "image": "https://imgur.com/uZjWQ8y.png",
+        "title": "L'histoire de Kidaia",
+        "subtitle": "Apprendre en s'amusant",
+        "content": "Kidaia est un logiciel éducatif en ligne pour progresser en maths et en sciences. La page 'L'histoire de Kidaia' a été realisée par mes soins lors de mon stage chez Prof en Poche."
+      },
+      {
+        "id": 3,
         "image": "https://i.imgur.com/aJtLGIl.png",
         "title": "Booki",
         "subtitle": "Trouvez votre hébergement",
         "content": "Premier projet avec OpenClassRooms. La mission était d'intégrer du contenu conformément à une maquette et implémenter une interface responsive."
       },
       {
-        "id": 2,
+        "id": 4,
         "image": "https://imgur.com/00xLoJN.png",
         "title": "Ohmyfood",
         "subtitle": "Réservez le menu qui vous convient",
         "content": "Sur ce projet, j'ai pu assurer la cohérence graphique d'un site web, mettre en œuvre des effets CSS graphiques avancés ainsi qu'utiliser un système de gestion de versions pour le suivi du projet et son hébergement."
       },
       {
-        "id": 3,
+        "id": 5,
         "image": "https://imgur.com/tBYXOAe.png",
         "title": "Panthère",
         "subtitle": "Agence web à vos services",
         "content": "L'objectf ici était d'optimiser un site web existant. J'ai pu gérer l'accessibilité de ce dernier, rénover sa taille et sa vitesse et améliorer considérablement son référencement. "
       },
       {
-        "id": 4,
+        "id": 6,
         "image": "https://imgur.com/GT1uGBf.png",
         "title": "Kanap",
         "subtitle": "Création d'un site e-commerce",
         "content": "Gérer des événements JavaScript a été le coeur de ce projet. J'ai pu valider des données issues de sources externes et créer des plans de test."
       },
       {
-        "id": 5,
-        "image": "https://imgur.com/dM47xAV.png",
+        "id": 7,
+        "image": "https://imgur.com/7yW70Zd.png",
         "title": "Piquante",
         "subtitle": "Application d'avis gastronomiques",
-        "content": "Le challenge ici etait de créer une API sécurisée. J'ai implenté un modèle logique de données conformément à la réglementation, mis en oeuvre des opérations CRUD et stocké des données de manière sécurisée. J'ai utilisé MongoDB pour la BDD."
+        "content": "Le challenge ici etait de créer une API sécurisée. J'ai implenté un modèle logique de données conformément à la réglementation, mis en oeuvre des opérations CRUD et stocké des données de manière sécurisée."
       },
       {
-        "id": 6,
+        "id": 8,
         "image": "https://imgur.com/obRIJxg.png",
         "title": "Kasa",
         "subtitle": "Application web d'hebergements entre particuliers",
-        "content": "Ce dernier projet Openclassrooms consistait à créer une application React. J'ai pu configurer la navigation entre les pages de l'application avec React Router et développer des éléments de l'interface grâce à des composants."
+        "content": " Application React. Utilisation de React Router et développer des éléments de l'interface grâce à des composants."
+      },
+      {
+        "id": 9,
+        "image": "https://imgur.com/Nt6JUNt.png",
+        "title": "Color Generator",
+        "subtitle": "Realisé avec HTML, CSS & JavaScript",
+        "content": " Permet de generer différentes palettes de couleurs au rafraîchissement de la page, et lors du clic sur le bouton."
       }
 
     ]

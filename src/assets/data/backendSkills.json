@@ -1,22 +1,15 @@
 {
-    "data": [
-    {
-    "id":1,
-    "techno": "Nodejs",
-    "logo": "node",
-    "score": "70"
-    },
-    {
-    "id":2,
-    "techno": "tes2",
-    "logo": "test-logo2",
-    "score": "70"
-    },
-    {
-    "id":3,
-    "techno": "test3",
-    "logo": "test-logo3",
-    "score": "50"
-    }
+    "backSkills": [
+      {
+        "name": "Nodejs",
+        "image": "https://imgur.com/Lmt4jMa.png",
+        "url": "https://nodejs.org/en/docs/"
+      },
+      {
+        "name": "Nestjs",
+        "image": "https://imgur.com/JJO8vp0.png",
+        "url": "https://docs.nestjs.com/"
+      }
     ]
-}
+  }
+  

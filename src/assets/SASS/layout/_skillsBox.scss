@@ -1,35 +1,47 @@
+
 .skillsBox-container {
-  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: fit-content;
+  gap: 3em;
+  animation: an 1.3s ease-out 1 both;
 
   .skills {
-
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
     h1 {
-      color: red;
+      font-size: 17px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(235, 224, 224);
     }
 
     .skills-box {
-      
-      width: 30%;
-      border: 2px solid red;
-
+      display: flex;
+      width: 200px;
+      border-left: 2px solid rgb(93, 221, 238);
+      border-radius: 15px;
+      padding: 10px;
 
       .logos {
-       display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin: auto; 
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+        gap: 1em;
+        cursor: pointer;
         .skill-logo {
-          border: 2px solid white;
-          width: 150px;
+          width: 50px;
           filter: grayscale(100%);
         }
         .skill-logo:hover {
           filter: none;
-          
+          filter: drop-shadow(0 0 0.75rem #7a776e);
         }
-      
       }
     }
   }

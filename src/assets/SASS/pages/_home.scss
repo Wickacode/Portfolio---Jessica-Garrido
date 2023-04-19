@@ -12,11 +12,7 @@
         color: white;
         font-size: 150px;
         font-family: "Questrial", sans-serif;
-      }
-      h1:hover {
-        text-shadow: 0 0 2px #4877a7, 0 0 30px #3f1559, 0px 0px 5px #663678,
-          0 0 150px #593a7c;
-        color: #8f30b8;
+        animation: lights 5s linear infinite;
       }
     }
 
@@ -26,6 +22,7 @@
       gap: 1em;
       width: fit-content;
       margin-bottom: 30px;
+      animation: an 1.3s ease-out 1 both;
 
       img {
         width: 300px;
@@ -43,23 +40,56 @@
   .profile-description {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-around;
 
-    h2 {
+    .title-and-citation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1em;
+
+      h2 {
       color: white;
       font-family: "Questrial", sans-serif;
       font-weight: 400;
       margin: 0;
     }
 
-    p {
-      font-family: "Questrial", sans-serif;
+    .citation {
+      
+      padding: 10px;
+      border-radius: 15px;
       text-align: center;
-      width: 620px;
+      color: rgb(236, 225, 225);
+      animation: an 1s ease-out 1 both;
+    }
+
+    .author {
+      text-align: end;
+      color: rosybrown
+    }
+    }
+   
+    p {
+      width: 500px;
+
     }
   }
 }
+
+//Animation citation 
+@keyframes an{
+  from{
+      opacity: 0;
+      transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+  }
+  to{
+      opacity: 1;
+      transform: perspective(500px) translate3d(0, 0, 0);
+  }
+}
+
 
 //RESPONSIVE TABLETTE
 @media screen and (min-width: 767px) and (max-width: 1024px) {

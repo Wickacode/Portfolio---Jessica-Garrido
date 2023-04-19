@@ -41,6 +41,20 @@
   }
 }
 
+//Eye color 
+.fa-eye {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.grayscale-active {
+  filter: none;
+}
+
+
+//Responsive
 @media screen and (min-width: 0) and (max-width: 425px) {
   .navbar {
     display: none;

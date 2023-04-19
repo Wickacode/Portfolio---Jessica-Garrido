@@ -1,0 +1,28 @@
+.softSkills {
+    animation: an 1.3s ease-out 1 both;
+    h3 {
+        text-align: center;
+        background-color: rgb(74, 153, 167);
+        color: beige;
+        padding: 15px;
+      }
+
+  ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    gap: 1em;
+
+    li {
+      text-align: center;
+      color: rgb(234, 226, 226);
+      background-color: rgb(0, 0, 0);
+      width: 70%;
+      padding: 20px;
+      margin: 0;
+      cursor: pointer;
+    }
+  }
+}
