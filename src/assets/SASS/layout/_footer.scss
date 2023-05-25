@@ -1,27 +1,39 @@
 .footer-container {
-  background-color: rgb(135, 155, 172);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(57, 54, 54);
   margin-bottom: 0;
+  width: 100%;
+  height: 100px;
+  color: white;
+
   h4 {
-    padding: 20px 0 0 20px;
-    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    border-right: 2px solid white;
+    padding-right: 35px;
+    height: 100%;
   }
 
   .footer-infos {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 2em;
     padding: 0 20px;
 
     .footer-about {
       flex-direction: row !important;
 
       p {
-        color: black;
+        color: white;
       }
     }
     .footer-social {
-
+      display: flex;
+      gap: 1em;
       a {
 
         color: white;
@@ -34,12 +46,7 @@
   }
   .footer-disclaimer {
     text-align: center;
-    color: black;
+    color: white;
   }
 }
 
-.width-footer {
-  max-width: 1400px;
-  margin: auto;
-  min-height: fit-content;
-}

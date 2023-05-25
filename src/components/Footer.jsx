@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-infos">
           <div className="footer-about">
             <p>
-              Ce portfolio est codé en <em>ReactJs</em> et <em>Sass</em>
+              Ce portfolio est codé <br /> en <em>ReactJs</em> et <em>Sass</em>
             </p>
           </div>
 

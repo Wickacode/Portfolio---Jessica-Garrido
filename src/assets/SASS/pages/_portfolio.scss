@@ -1,6 +1,11 @@
 .portfolio-container {
-  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 
+  .titleAndVideo {
+    padding: 20px;
+  }
     //Video 
    .video-container {
     display: flex;
@@ -10,7 +15,6 @@
 
     p {
         width: 16%;
-        border: 2px solid blue;
     }
     h3 {
       color: white;

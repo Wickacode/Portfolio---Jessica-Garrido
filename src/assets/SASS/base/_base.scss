@@ -15,12 +15,27 @@ p {
 }
 
 .width-contain {
-  max-width: 1600px;
   margin: auto;
   min-height: fit-content;
 }
 a {
   cursor: pointer;
+}
+
+//Titre sous la navbar
+
+.title-description {
+  width: 1400px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+
+
+  h2 {
+    color: white;
+    font-size: 90px;
+    animation: lights 5s linear infinite;
+  }
 }
 
 //Key frames

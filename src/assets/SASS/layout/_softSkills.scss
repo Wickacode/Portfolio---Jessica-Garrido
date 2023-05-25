@@ -1,5 +1,4 @@
 .softSkills {
-    animation: an 1.3s ease-out 1 both;
     h3 {
         text-align: center;
         background-color: rgb(74, 153, 167);
@@ -22,7 +21,23 @@
       width: 70%;
       padding: 20px;
       margin: 0;
-      cursor: pointer;
+    }
+
+    .li1:hover {
+      -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+    }
+    .li2:hover {
+      -webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+    }
+    .li3:hover {
+      -webkit-animation: wobble-hor-bottom 0.8s both;
+	        animation: wobble-hor-bottom 0.8s both;
+    }
+    .li4:hover {
+      -webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
     }
   }
 }

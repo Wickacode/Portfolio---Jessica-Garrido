@@ -7,10 +7,10 @@ export default function SoftSkills() {
      <div className="profile-box">
             <h3>Soft Skills</h3>
             <ul>
-            <li>Sens de l'écoute</li>
-            <li>Ponctuelle</li>
-            <li>Créative</li> 
-            <li>Dynamique</li> 
+            <li className="li1">Sens de l'écoute</li>
+            <li className="li2">Ponctuelle</li>
+            <li className="li3">Créative</li> 
+            <li className="li4">Dynamique</li> 
             </ul>
             
             

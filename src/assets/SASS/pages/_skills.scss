@@ -1,46 +1,35 @@
-.title-description {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
-  h2 {
-    color: white;
-    font-size: 90px;
-    animation: lights 5s linear infinite;
-  }
-}
-.about-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 5em;
-
-  .profile-container {
+.skills-container {
+  .about-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 400px;
-    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5em;
+    margin: 50px;
+    animation: an 1.3s ease-out 1 both;
 
-    .profile-box {
-      display: block;
-      animation: an 1.3s ease-out 1 both;
-      
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 400px;
+      height: auto;
 
-      h3 {
-        background-color: rgb(74, 153, 167);
-        color: beige;
-        padding: 15px;
-        margin-bottom: -20px;
+      .profile-box {
+        display: block;
+
+        h3 {
+          background-color: rgb(74, 153, 167);
+          color: beige;
+          padding: 15px;
+          margin-bottom: -20px;
+        }
+        p {
+          background-color: rgb(0, 0, 0);
+          padding: 40px;
+          color: rgb(247, 239, 239);
+        }
       }
-      p {
-        background-color: rgb(0, 0, 0);
-        padding: 40px;
-        color: rgb(247, 239, 239);
-      }
-
     }
   }
 }
