@@ -4,7 +4,7 @@
   .blog-card-slider {
     .slick-prev,
     .slick-next {
-      color: #c68989;
+      color: #7e9fcb;
       width: 40px;
       height: 40px;
       cursor: pointer;
@@ -31,13 +31,13 @@
     .slick-dots {
       margin: auto;
       padding: 15px;
-      background-color: #c5c2cc;
+      background-color: #949397;
       border-radius: 20px;
       width: max-content;
       transition: 1.2s;
 
       &:hover {
-        background-color: #c68989;
+        background-color: #7e9fcb;
       }
     }
   }
@@ -50,7 +50,7 @@
 
   .title {
     text-align: center;
-    color: #c5c2cf;
+    color: #7e9fcb;
   }
 
   .meta {
@@ -85,7 +85,7 @@
     .subtitle {
       text-align: center;
       padding-bottom: 10px;
-      font-style: italic;
+      color: #7e9fcb;
     }
     hr {
       width: 100%;
@@ -95,6 +95,7 @@
       font-size: 1.2em;
       width: 70%;
       padding: 5px 20px;
+      color: rgb(220, 217, 215);
     }
 
     .read-more {
@@ -110,9 +111,10 @@
       text-decoration: none;
       color: inherit;
       font-size: 3em;
+      color: rgb(235, 233, 227);
 
       &:hover {
-        color: rgb(134, 62, 150);
+        color: #7e9fcb;
         transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
       }
     }
@@ -122,7 +124,7 @@
 // Instagram
 
 .video-container {
-  background-color: #2a3b4a;
+  background-color: #7e9fcb;
   padding: 50px;
   display: flex;
   align-items: center;

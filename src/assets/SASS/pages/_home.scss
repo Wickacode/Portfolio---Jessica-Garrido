@@ -15,6 +15,7 @@
         color: rgb(54, 52, 52);
         font-size: 150px;
         font-family: "Questrial", sans-serif;
+        text-shadow: -3px 5px 12px #D1D0CF;
       }
     }
 
@@ -26,14 +27,20 @@
       margin-bottom: 30px;
       animation: an 1.3s ease-out 1 both;
       
-      img {
-        
+      .homePicture {
+        margin: auto;
+        height: 420px;
         width: 300px;
         filter: grayscale(100%);
         transition: 1.2s;
-      }
-      img:hover {
-        filter: none;
+        object-fit: cover;
+        border-radius: 20px;
+        -webkit-box-shadow: -4px 6px 15px 2px rgba(217,216,215,0.52); 
+box-shadow: -4px 6px 15px 2px rgba(217,216,215,0.52);
+
+        &:hover {
+          filter: none;
+        }
       }
     }
   }
@@ -61,7 +68,7 @@
     }
 
     .citation {
-      
+      border: 2px solid #7e9fcb;
       padding: 10px;
       border-radius: 15px;
       text-align: center;
@@ -75,8 +82,10 @@
     }
     }
    
-    p {
-      width: 700px;
+    .home-description {
+      border-left: 3px solid #7e9fcb;
+      width: 600px;
+      padding-left: 40px;
 
     }
   }
