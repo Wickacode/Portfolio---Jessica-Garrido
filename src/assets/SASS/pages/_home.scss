@@ -23,10 +23,12 @@
       width: fit-content;
       margin-bottom: 30px;
       animation: an 1.3s ease-out 1 both;
+      
 
       img {
         width: 300px;
         filter: grayscale(100%);
+        transition: 1.2s;
       }
       img:hover {
         filter: none;
