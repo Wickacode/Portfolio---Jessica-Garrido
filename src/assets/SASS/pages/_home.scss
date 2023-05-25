@@ -5,6 +5,8 @@
     justify-content: center;
     gap: 12em;
     flex-wrap: wrap;
+    height: auto;
+    background-color: rgb(126, 159, 203);
 
     .name-container {
       width: fit-content;
@@ -24,8 +26,8 @@
       margin-bottom: 30px;
       animation: an 1.3s ease-out 1 both;
       
-
       img {
+        
         width: 300px;
         filter: grayscale(100%);
         transition: 1.2s;
@@ -34,9 +36,6 @@
         filter: none;
       }
     }
-  }
-  hr {
-    margin-bottom: 35px;
   }
 
   .profile-description {
