@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-export default function Menu({ isActive, handleIconClick }) {
+export default function Menu() {
   const location = useLocation();
   const [currentPageUrl, setCurrentPageUrl] = useState("");
 
@@ -33,10 +33,7 @@ export default function Menu({ isActive, handleIconClick }) {
             Contact
           </Link>
         </li>
-        <div className={isActive ? 'active' : ''}>
-           <i className="fa-solid fa-eye" onClick={handleIconClick}></i>
-        </div>
       </ul>
     </nav>
   );
-} 
+}

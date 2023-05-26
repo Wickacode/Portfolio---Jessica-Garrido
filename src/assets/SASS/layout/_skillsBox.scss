@@ -21,8 +21,9 @@
     .skills-box {
       display: flex;
       width: 200px;
-      border-left: 2px solid rgb(126, 159, 203);
+      border-left: 4px solid rgb(244, 244, 244);
       border-radius: 15px;
+      background-color: rgba(126, 159, 203, 0.5);
       padding: 10px;
 
       .logos {

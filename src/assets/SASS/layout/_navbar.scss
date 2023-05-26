@@ -7,7 +7,7 @@
   padding-top: 60px;
 
    .active {
-    border-bottom: 2px solid #e0dad7;
+    border-bottom: 2px solid #7e9fcb;
     -webkit-animation: slide-active-links 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-active-links 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
@@ -23,21 +23,11 @@
       text-transform: uppercase;
     }
 
-    .a01:hover {
-      color: #f8b595;
+    a:hover {
+      color: #7e9fcb;
     }
 
-    .a02:hover {
-      color: #f67280;
-    }
-
-    .a03:hover {
-      color: #c06c84;
-    }
-
-    .a04:hover {
-      color: #8a1253;
-    }
+    
   }
 }
 

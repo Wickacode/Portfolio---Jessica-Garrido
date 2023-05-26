@@ -41,16 +41,15 @@ export default function Home() {
         </div>
 
         <p className="home-description">
-          <b>Bienvenus sur mon site en ligne ! </b>
+          <b>Bienvenus sur mon site en ligne ! </b> <br />
           <br />
-          Passionée par le code et à l'affût des nouvelles technologies, <br />
-          J'ai récemment ouvert ma micro-entreprise pour me lancer en tant que
-          développeuse freelance . Mon entreprise répond au doux nom de CODEPIC.
-          Disponible pour tout type de challenge, je suis également à la
-          recherche d'une entreprise pour y faire mon alternance en Concepcion
-          d'applications web et mobiles. <br />
-          Cet apprentissage se déroulera en compagnie de la Fabrique Numérique
-          Paloise. <br />
+          <b>Passionée</b> par le code et à l'affût des nouvelles technologies, <br />
+          j'ai récemment ouvert ma micro-entreprise pour me lancer en tant que 
+          <b> développeuse freelance</b>. <br /> Mon entreprise répond au doux nom de <b>CODEPIC</b>. <br /><br />
+          Disponible pour tout type de challenges, je suis également à la
+          recherche d'une entreprise pour y faire mon alternance en  <b>Concepcion
+          d'applications web et mobiles</b>. <br />
+          Cet apprentissage se déroulera en compagnie de la <b>Fabrique Numérique Paloise</b>. <br />
           Je vous remercie de votre présence sur mon site, et vous invite à
           le parcourir pour mieux me découvrir ! <br />
           Au plaisir d'échanger avec vous !

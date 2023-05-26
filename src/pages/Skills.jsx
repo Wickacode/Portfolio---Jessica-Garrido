@@ -24,14 +24,11 @@ export default function Skills() {
               <br />
               Créative dans l'âme, j'ai toujours trouvé du plaisir dans le
               dessin, la musique, le montage vidéo, la photographie et bien
-              d'autres. <br />
+              d'autres. <br /><br />
               Après avoir exercé pendant près de 7 ans plusieurs corps de
               métiers comme la vente, l'accueil et le travail en production,
               j'ai finalement trouvé le domaine dans lequel je m'épanouis
               totalement : le développement ! <br />
-              Je suis à la recherche d'une entreprise pour réaliser ma formation
-              en tant que Conceptrice d'application Web et mobiles, réalisée
-              auprès de la Fabrique numérique Paloise <br />
             </p>
           </div>
         </div>

@@ -1,5 +1,4 @@
 .home-container {
-  
   .home-elements {
     display: flex;
     justify-content: center;
@@ -7,6 +6,10 @@
     flex-wrap: wrap;
     height: auto;
     background-color: rgb(126, 159, 203);
+    background-image: url('https://imgur.com/qnBmnQo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
     .name-container {
       width: fit-content;
@@ -15,7 +18,7 @@
         color: rgb(54, 52, 52);
         font-size: 150px;
         font-family: "Questrial", sans-serif;
-        text-shadow: -3px 5px 12px #D1D0CF;
+        text-shadow: -3px 5px 12px #d1d0cf;
       }
     }
 
@@ -26,7 +29,7 @@
       width: fit-content;
       margin-bottom: 30px;
       animation: an 1.3s ease-out 1 both;
-      
+
       .homePicture {
         margin: auto;
         height: 420px;
@@ -35,8 +38,8 @@
         transition: 1.2s;
         object-fit: cover;
         border-radius: 20px;
-        -webkit-box-shadow: -4px 6px 15px 2px rgba(217,216,215,0.52); 
-box-shadow: -4px 6px 15px 2px rgba(217,216,215,0.52);
+        -webkit-box-shadow: -4px 6px 15px 2px rgba(217, 216, 215, 0.52);
+        box-shadow: -4px 6px 15px 2px rgba(217, 216, 215, 0.52);
 
         &:hover {
           filter: none;
@@ -49,7 +52,7 @@ box-shadow: -4px 6px 15px 2px rgba(217,216,215,0.52);
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 300px;
+    height: 400px;
     width: 80%;
     margin: auto;
 
@@ -61,48 +64,47 @@ box-shadow: -4px 6px 15px 2px rgba(217,216,215,0.52);
       gap: 1em;
 
       h2 {
-      color: rgb(42, 41, 41);
-      font-family: "Questrial", sans-serif;
-      font-weight: 400;
-      margin: 0;
+        color: rgb(42, 41, 41);
+        font-family: "Questrial", sans-serif;
+        font-weight: 400;
+        margin: 0;
+      }
+
+      .citation {
+        border: 2px solid #7e9fcb;
+        padding: 10px;
+        border-radius: 15px;
+        text-align: center;
+        color: rgb(49, 47, 47);
+        animation: an 1s ease-out 1 both;
+      }
+
+      .author {
+        text-align: end;
+        color: rgb(43, 40, 40);
+      }
     }
 
-    .citation {
-      border: 2px solid #7e9fcb;
-      padding: 10px;
-      border-radius: 15px;
-      text-align: center;
-      color: rgb(49, 47, 47);
-      animation: an 1s ease-out 1 both;
-    }
-
-    .author {
-      text-align: end;
-      color: rgb(43, 40, 40)
-    }
-    }
-   
     .home-description {
       border-left: 3px solid #7e9fcb;
       width: 600px;
       padding-left: 40px;
-
     }
   }
 }
 
-//Animation citation 
-@keyframes an{
-  from{
-      opacity: 0;
-      transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+//Animation citation
+@keyframes an {
+  from {
+    opacity: 0;
+    transform: perspective(500px) translate3d(-35px, -40px, -150px)
+      rotate3d(1, -1, 0, 35deg);
   }
-  to{
-      opacity: 1;
-      transform: perspective(500px) translate3d(0, 0, 0);
+  to {
+    opacity: 1;
+    transform: perspective(500px) translate3d(0, 0, 0);
   }
 }
-
 
 //RESPONSIVE TABLETTE
 @media screen and (min-width: 767px) and (max-width: 1024px) {
@@ -126,7 +128,7 @@ box-shadow: -4px 6px 15px 2px rgba(217,216,215,0.52);
   }
   .profile-description {
     p {
-     text-align: center;
+      text-align: center;
       padding: 20px;
     }
   }
