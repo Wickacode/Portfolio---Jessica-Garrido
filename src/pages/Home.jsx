@@ -52,7 +52,7 @@ export default function Home() {
           Cet apprentissage se déroulera en compagnie de la <b>Fabrique Numérique Paloise</b>. <br />
           Je vous remercie de votre présence sur mon site, et vous invite à
           le parcourir pour mieux me découvrir ! <br />
-          Au plaisir d'échanger avec vous !
+          <b>Au plaisir d'échanger avec vous !</b>
         </p>
       </div>
     </div>

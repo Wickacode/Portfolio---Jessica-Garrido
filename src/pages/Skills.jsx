@@ -1,10 +1,8 @@
 import React from "react";
 import SkillsBox from "../components/SkillsBox";
 import SoftSkills from "../components/SoftSkills";
-import DownloadLink from "../components/DownloadLink";
 
 export default function Skills() {
-  const cvUrl = "../assets/files/Jessica_garrido_cv_2023.pdf";
 
   return (
     <div className="skills-container width-contain">
@@ -32,15 +30,12 @@ export default function Skills() {
             </p>
           </div>
         </div>
-        <section>
+        <section className="shareCv">
           <div>
             <h3>Liens utiles :</h3>
-            <DownloadLink fileUrl={cvUrl} />
-            <DownloadLink fileUrl={cvUrl} />
-            <DownloadLink fileUrl={cvUrl} />
+            <a href="../assets/files/cv-freelance.pdf" download>Télécharger mon CV</a>
           </div>
         </section>
-        c
       </div>
     </div>
   );

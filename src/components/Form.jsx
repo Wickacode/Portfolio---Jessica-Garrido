@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import contactImg from "../assets/img/reseaux/contact.svg";
+import contactImg from "../assets/img/reseaux/contact.jpg";
 import fbLogo from "../assets/img/reseaux/fb.svg";
 import inLogo from "../assets/img/reseaux/inst.svg";
 import gitLogo from "../assets/img/reseaux/github.svg";
@@ -24,7 +24,7 @@ export default function ContactForm() {
   //Lorsque l'utilisateur soumet un formulaire
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Ajoutez votre logique pour envoyer les données au serveur ici
+    // Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici
   };
 
   return (
