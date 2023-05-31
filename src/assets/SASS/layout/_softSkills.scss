@@ -41,3 +41,36 @@
     }
   }
 }
+
+//Responsive Desktop
+@media only screen and (min-device-width: 900px) and (max-device-width: 1300px) {
+
+}
+
+//Responsive tablette
+@media only screen and (min-device-width: 500px) and (max-device-width: 900px) {
+
+}
+
+// Responsive Mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  .softSkills {
+    h3 {
+      width: fit-content;
+      margin: auto;
+    }
+  ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    li {
+      text-align: center;
+      color: rgb(243, 237, 237);
+      background-color: #545151d1;
+      width: 60%;
+      padding: 20px;
+      margin: 0;
+    }
+
+  }
+}
+}
