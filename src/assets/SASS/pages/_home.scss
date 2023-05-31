@@ -168,9 +168,12 @@
   
     .profile-description {
       justify-content: center;
-      flex-direction: column-reverse;
+      flex-direction: column;
       gap: 2em;
-  
+      
+      .homePicture2 {
+        display: none;
+      }
       .title-and-citation {
         margin-top: 30px;
         .citation {
@@ -213,7 +216,6 @@
   
     .profile-description {
       justify-content: center;
-      flex-direction: column-reverse;
       gap: 2em;
   
       .title-and-citation {

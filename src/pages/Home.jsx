@@ -27,7 +27,7 @@ export default function Home() {
           className={`profile-pictures ${isActive ? "grayscale-active" : ""}`}
         >
           <img className="grayscale homePicture" src={ProfilePicture} alt="" />
-          <img className="grayscale homePicture" src={ProfilePicture2} alt="" />
+          <img className="grayscale homePicture homePicture2" src={ProfilePicture2} alt="" />
         </div>
       </div>
 
