@@ -62,3 +62,171 @@
     }
   }
 }
+
+
+//Responsive Desktop
+@media only screen and (min-device-width: 900px) and (max-device-width: 1300px) {
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    .about-container {
+      margin: 0;
+  
+      .profile-container {
+        .profile-box {
+          display: block;
+  
+          h3 {
+            background-color: #7e9fcb;
+            color: beige;
+            padding: 15px;
+            margin-bottom: -20px;
+          }
+          p {
+            background-color: #545151d1;
+            padding: 40px 60px;
+            color: rgb(247, 239, 239);
+          }
+        }
+      }
+    }
+  
+    .shareCv {
+      height: 100%;
+      width: auto;
+  
+      h3 {
+        font-size: 15px;
+      }
+      img {
+        width: 210px;
+        cursor: pointer;
+      }
+      .expanded {
+        position: fixed;
+        top: -80%;
+        left: 30%;
+        width: 40%;
+        -webkit-box-shadow: -10px 0px 13px -7px #000000,
+          10px 0px 13px -7px #000000, 2px 4px 35px 50px rgba(232, 255, 240, 0.42);
+        box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+          2px 4px 35px 50px rgba(232, 255, 240, 0.42);
+      }
+    }
+  }
+  
+}
+
+//Responsive tablette
+@media only screen and (min-device-width: 500px) and (max-device-width: 900px) {
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    .about-container {
+      margin: 0;
+  
+      .profile-container {
+        .profile-box {
+          display: block;
+  
+          h3 {
+            background-color: #7e9fcb;
+            color: beige;
+            padding: 15px;
+            margin-bottom: -20px;
+          }
+          p {
+            background-color: #545151d1;
+            padding: 40px 60px;
+            color: rgb(247, 239, 239);
+          }
+        }
+      }
+    }
+  
+    .shareCv {
+      height: 100%;
+      width: auto;
+  
+      h3 {
+        font-size: 15px;
+      }
+      img {
+        width: 210px;
+        cursor: pointer;
+      }
+      .expanded {
+        position: fixed;
+        top: -80%;
+        left: 30%;
+        width: 40%;
+        -webkit-box-shadow: -10px 0px 13px -7px #000000,
+          10px 0px 13px -7px #000000, 2px 4px 35px 50px rgba(232, 255, 240, 0.42);
+        box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+          2px 4px 35px 50px rgba(232, 255, 240, 0.42);
+      }
+    }
+  }
+  
+}
+
+// Responsive Mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  .skills-container {
+    height: auto;
+    .about-container {
+      margin: 0 20px;
+      gap: 1em;
+  
+      .profile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+        height: auto;
+  
+        .profile-box {
+          display: block;
+  
+          h3 {
+            background-color: #7e9fcb;
+            color: beige;
+            padding: 15px;
+            margin-bottom: -20px;
+          }
+          p {
+            background-color: #545151d1;
+            padding: 20px 30px;
+            color: rgb(247, 239, 239);
+          }
+        }
+      }
+    }
+  
+    .shareCv {
+      height: 100%;
+      width: auto;
+      margin-bottom: 50px;
+  
+      h3 {
+        font-size: 15px;
+        color: aliceblue;
+      }
+      img {
+        width: 210px;
+        cursor: pointer;
+      }
+      .expanded {
+        top: 60%;
+        left: 5%;
+        width: 90%;
+      }
+    }
+  }
+}

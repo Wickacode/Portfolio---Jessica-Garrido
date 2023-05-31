@@ -46,3 +46,46 @@
     }
   }
 }
+
+//Responsive Desktop
+@media only screen and (min-device-width: 900px) and (max-device-width: 1300px) {
+
+}
+
+//Responsive tablette
+@media only screen and (min-device-width: 500px) and (max-device-width: 900px) {
+
+}
+
+// Responsive Mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+ 
+.skillsBox-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  .skills {
+    flex-direction: column;
+    gap: 1em;
+
+    .skills-box {
+      width: 90%;
+      margin: auto;
+      padding: 15px;
+
+      .logos {
+        .skill-logo {
+          width: 35px;
+          filter: grayscale(100%);
+        }
+        .skill-logo:hover {
+          filter: none;
+          filter: drop-shadow(0 0 0.75rem #7a776e);
+        }
+      }
+    }
+  }
+}
+}
