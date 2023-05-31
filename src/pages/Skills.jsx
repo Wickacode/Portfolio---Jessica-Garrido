@@ -40,13 +40,8 @@ export default function Skills() {
           </div>
         </div>
         <section className="shareCv">
-          <a
-            href="./assets/files/cv-freelance.pdf"
-            download="Titre à afficher du fichier"
-          >
-            Téléchargez le fichier PDF
-          </a>
           <img src={cvFile} alt="" onClick={handleImageClick} />
+          <a href={pdfFile}  download >Téléchargez le fichier PDF</a>
         </section>
       </div>
     </div>
