@@ -69,12 +69,13 @@
   .navbar {
     max-width: 500px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 0px;
   
     ul {
       flex-wrap: wrap;
+      gap: 1em;
       a {
-        font-size: 1em;
+        font-size: 0.9em;
       }
     }
   }
