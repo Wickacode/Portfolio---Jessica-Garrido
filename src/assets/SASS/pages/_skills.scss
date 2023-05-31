@@ -9,7 +9,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 5em;
+    gap: 3em;
     margin: 50px;
     animation: an 1.3s ease-out 1 both;
 
@@ -73,7 +73,7 @@
     justify-content: center;
     height: auto;
     .about-container {
-      margin: 0;
+      margin: 20px;
   
       .profile-container {
         .profile-box {
@@ -129,23 +129,13 @@
     justify-content: center;
     height: auto;
     .about-container {
-      margin: 0;
+      margin: 20px;
+      gap: 2em;
   
       .profile-container {
         .profile-box {
           display: block;
   
-          h3 {
-            background-color: #7e9fcb;
-            color: beige;
-            padding: 15px;
-            margin-bottom: -20px;
-          }
-          p {
-            background-color: #545151d1;
-            padding: 40px 60px;
-            color: rgb(247, 239, 239);
-          }
         }
       }
     }
@@ -156,6 +146,7 @@
   
       h3 {
         font-size: 15px;
+        color: rgb(247, 239, 239);
       }
       img {
         width: 210px;
@@ -166,10 +157,6 @@
         top: -80%;
         left: 30%;
         width: 40%;
-        -webkit-box-shadow: -10px 0px 13px -7px #000000,
-          10px 0px 13px -7px #000000, 2px 4px 35px 50px rgba(232, 255, 240, 0.42);
-        box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
-          2px 4px 35px 50px rgba(232, 255, 240, 0.42);
       }
     }
   }
@@ -224,8 +211,8 @@
       }
       .expanded {
         top: 60%;
-        left: 5%;
-        width: 90%;
+        left: 3%;
+        width: 95%;
       }
     }
   }

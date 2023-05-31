@@ -39,13 +39,21 @@ a {
 
 //Responsive Desktop
 @media only screen and (min-device-width: 900px) and (max-device-width: 1300px) {
-
+  .title-description {
+    max-width: 500px;
+    height: 100px; 
+    
+    h2 {
+      font-size: 40px;
+      margin-left: 30px;
+    }
+  }
 }
 
 //Responsive tablette
 @media only screen and (min-device-width: 500px) and (max-device-width: 900px) {
   .title-description {
-    width: 900px;
+    max-width: 900px;
     height: 200px; 
     h2 {
       font-size: 60px;
@@ -61,7 +69,8 @@ a {
     
     h2 {
       font-size: 40px;
-      margin-left: 30px;
+      margin-left: 0;
+      margin: auto;
     }
   }
 }

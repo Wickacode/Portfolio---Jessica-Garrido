@@ -24,9 +24,6 @@
       width: 65%;
       margin: auto;
     }
-    .custom-dots .slick-dots {
-      // margin-left: 40%;
-    }
 
     .slick-dots {
       margin: auto;
@@ -173,4 +170,97 @@
 
 .video-container.fade-in {
   opacity: 1;
+}
+
+//Responsive Desktop
+@media only screen and (min-device-width: 900px) and (max-device-width: 1300px) {
+
+}
+
+//Responsive tablette
+@media only screen and (min-device-width: 500px) and (max-device-width: 900px) {
+
+}
+
+// Responsive Mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  .custom-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85% !important;
+    margin: auto;
+  }
+
+  .slick-prev,
+    .slick-next {
+      display: none;
+    }
+  .blog-card {
+    margin: auto;
+    width: 100%;
+    border-radius: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+  
+    .title {
+      text-align: center;
+      color: #7e9fcb;
+    }
+  
+    .meta {
+      .photo {
+        width: 100%;
+        height: 200px;
+      }
+      .photo:hover {
+        filter: none;
+      }
+    }
+  
+    .description {
+
+      .subtitle {
+        font-size: 20px;
+      }
+      .content {
+        font-size: 1em;
+        width: 70%;
+      }
+  
+      a {
+        font-size: 2em;
+      }
+    }
+  }
+  
+  // Instagram
+  .video-container {
+    padding: 20px;
+    flex-direction: column;
+    gap: 2em;
+  
+    .insta-content {
+      text-align: center;
+      width: 100%;
+      padding: 10px;
+  
+      h2 {
+        font-size: 1em;
+        color: rgb(51, 49, 51);
+      }
+      p {
+        font-size: 0.9em;
+        color: rgb(59, 58, 58);
+      }
+    }
+  
+    a {
+      video {
+        width: 300px;
+        height: auto;
+      
+      }
+    }
+  }
+
 }

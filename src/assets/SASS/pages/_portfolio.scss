@@ -7,26 +7,24 @@
   flex-direction: column;
   justify-content: end;
 
-  .titleAndVideo {
-    padding: 20px;
-  }
-    //Video 
-   .video-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+}
 
-    p {
-        width: 16%;
+//Responsive Desktop
+@media only screen and (min-device-width: 900px) and (max-device-width: 1300px) {
+
+}
+
+//Responsive tablette
+@media only screen and (min-device-width: 500px) and (max-device-width: 900px) {
+
+}
+
+// Responsive Mobile
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  .portfolio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+      
     }
-    h3 {
-      color: #191a1b;
-      text-align: center;
-      font-weight: 200;
-      width: 400px;
-      margin: auto;
-    }
-    
-  }
 }
