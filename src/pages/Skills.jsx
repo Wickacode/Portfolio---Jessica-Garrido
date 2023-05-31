@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import SkillsBox from "../components/SkillsBox";
 import SoftSkills from "../components/SoftSkills";
+import cvFile from "../assets/files/cv-freelance.png";
 
 export default function Skills() {
+  const [isImageExpanded, setImageExpanded] = useState(false);
+
+  const handleImageClick = () => {
+    setImageExpanded(!isImageExpanded);
+  };
 
   return (
     <div className="skills-container width-contain">
@@ -22,7 +28,8 @@ export default function Skills() {
               <br />
               Créative dans l'âme, j'ai toujours trouvé du plaisir dans le
               dessin, la musique, le montage vidéo, la photographie et bien
-              d'autres. <br /><br />
+              d'autres. <br />
+              <br />
               Après avoir exercé pendant près de 7 ans plusieurs corps de
               métiers comme la vente, l'accueil et le travail en production,
               j'ai finalement trouvé le domaine dans lequel je m'épanouis
@@ -31,10 +38,13 @@ export default function Skills() {
           </div>
         </div>
         <section className="shareCv">
-          <div>
-            <h3>Liens utiles :</h3>
-            <a href="../assets/files/cv-freelance.pdf" download>Télécharger mon CV</a>
-          </div>
+          <h3>Cliquez sur mon CV :</h3>
+          <img
+            src={cvFile}
+            alt=""
+            onClick={handleImageClick}
+            className={isImageExpanded ? "expanded" : ""}
+          />
         </section>
       </div>
     </div>
