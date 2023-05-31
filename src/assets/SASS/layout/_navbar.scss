@@ -31,39 +31,55 @@
   }
 }
 
-//Eye color 
-.fa-eye {
-  display: flex;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-}
-.grayscale-active {
-  filter: none;
-}
+//Responsive Desktop
 
-
-//Responsive
-@media screen and (min-width: 0) and (max-width: 425px) {
+@media only screen and (min-device-width: 900px) and (max-device-width: 1300px) {
   .navbar {
-    display: none;
-  }
-}
-//RESPONSIVE TABLETTE
-@media screen and (min-width: 767px) and (max-width: 1024px) {
-}
-@media screen and (min-width: 425px) and (max-width: 767px) {
-  .navbar {
-    a {
-      font-size: 1.3em;
+    max-width: 1000px;
+    padding-top: 20px;
+    padding-left: 50px;
+  
+    ul {
+      a {
+        font-size: 1.5em;
+      }
     }
   }
 }
 
-//RESPONSIVE MOBILE
-@media screen and (min-width: 0) and (max-width: 425px) {
+//Responsive tablette
+
+@media only screen and (min-device-width: 500px) and (max-device-width: 900px) {
+  .navbar {
+    max-width: 900px;
+    padding-top: 10px;
+    padding-left: 10px;
+  
+    ul {
+      a {
+        font-size: 1em;
+      }
+    }
+  }
 }
+
+// Responsive Mobile
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  .navbar {
+    max-width: 500px;
+    padding-top: 10px;
+    padding-left: 10px;
+  
+    ul {
+      flex-wrap: wrap;
+      a {
+        font-size: 1em;
+      }
+    }
+  }
+}
+
 
 //active underline animation 
 @keyframes slide-active-links {
