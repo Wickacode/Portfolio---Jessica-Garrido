@@ -1,13 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import SkillsBox from "../components/SkillsBox";
 import SoftSkills from "../components/SoftSkills";
 import cvFile from "../assets/files/cv-freelance.png";
 
 export default function Skills() {
-  const [isImageExpanded, setImageExpanded] = useState(false);
-
   const handleImageClick = () => {
-    setImageExpanded(!isImageExpanded);
+    const link = document.createElement("a");
+    link.href = cvFile;
+    link.download = "../assets/files/cv-freelance.pdf";
+    link.click();
   };
 
   return (
@@ -39,12 +40,7 @@ export default function Skills() {
         </div>
         <section className="shareCv">
           <h3>Cliquez sur mon CV :</h3>
-          <img
-            src={cvFile}
-            alt=""
-            onClick={handleImageClick}
-            className={isImageExpanded ? "expanded" : ""}
-          />
+          <img src={cvFile} alt="" onClick={handleImageClick} />
         </section>
       </div>
     </div>

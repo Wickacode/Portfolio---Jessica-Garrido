@@ -21,7 +21,6 @@ function Articles() {
     nextArrow: <FaChevronRight className="slick-next" />,
   };
   
-
   return (
     <div className="blog-card-container">
       <div className="blog-card-slider">

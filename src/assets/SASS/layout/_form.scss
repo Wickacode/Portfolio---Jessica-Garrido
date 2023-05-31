@@ -208,11 +208,12 @@
       border-left: none;
     margin-left: 0;
     margin-top: 20px;
-
     a {
       img {
         width: 85px;
-      }      
+        filter: none;
+      }
+     
     }
     }
   }
