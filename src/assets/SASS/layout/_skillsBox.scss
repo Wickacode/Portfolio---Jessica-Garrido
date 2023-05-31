@@ -74,15 +74,13 @@
       width: 55%;
       margin: auto;
       padding: 15px;
+      border-left: 4px solid rgba(126, 159, 203, 1);
+      background-color: rgba(244, 244, 244, 0.396);
 
       .logos {
         .skill-logo {
           width: 35px;
-          filter: grayscale(100%);
-        }
-        .skill-logo:hover {
           filter: none;
-          filter: drop-shadow(0 0 0.75rem #7a776e);
         }
       }
     }

@@ -5,12 +5,12 @@ import cvFile from "../assets/files/cv-freelance.png";
 import pdfFile from "../assets/files/cv-freelance.pdf"
 
 export default function Skills() {
-  const handleImageClick = () => {
-    const link = document.createElement("a");
-    link.href = cvFile;
-    link.download = cvFile;
-    link.click();
-  };
+  // const handleImageClick = () => {
+  //   const link = document.createElement("a");
+  //   link.href = cvFile;
+  //   link.download = cvFile;
+  //   link.click();
+  // };
 
   return (
     <div className="skills-container width-contain">
@@ -40,8 +40,8 @@ export default function Skills() {
           </div>
         </div>
         <section className="shareCv">
-          <img src={cvFile} alt="" onClick={handleImageClick} />
-          <a href={pdfFile}  download >Téléchargez le fichier PDF</a>
+          <img src={cvFile} alt="" />
+          <a href={pdfFile}  download="test" >Télécharger mon CV</a>
         </section>
       </div>
     </div>
