@@ -2,12 +2,13 @@ import React from "react";
 import SkillsBox from "../components/SkillsBox";
 import SoftSkills from "../components/SoftSkills";
 import cvFile from "../assets/files/cv-freelance.png";
+import pdfFile from "../assets/files/cv-freelance.pdf"
 
 export default function Skills() {
   const handleImageClick = () => {
     const link = document.createElement("a");
     link.href = cvFile;
-    link.download = "../assets/files/cv-freelance.pdf";
+    link.download = cvFile;
     link.click();
   };
 
@@ -39,7 +40,12 @@ export default function Skills() {
           </div>
         </div>
         <section className="shareCv">
-          <h3>Cliquez sur mon CV :</h3>
+          <a
+            href="./assets/files/cv-freelance.pdf"
+            download="Titre à afficher du fichier"
+          >
+            Téléchargez le fichier PDF
+          </a>
           <img src={cvFile} alt="" onClick={handleImageClick} />
         </section>
       </div>
