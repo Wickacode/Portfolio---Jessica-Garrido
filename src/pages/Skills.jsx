@@ -5,17 +5,11 @@ import cvFile from "../assets/files/cv-freelance.png";
 import pdfFile from "../assets/files/cv-freelance.pdf"
 
 export default function Skills() {
-  // const handleImageClick = () => {
-  //   const link = document.createElement("a");
-  //   link.href = cvFile;
-  //   link.download = cvFile;
-  //   link.click();
-  // };
 
   return (
     <div className="skills-container width-contain">
       <div className="title-description">
-        <h2>Compétences</h2>
+        <h2>Skills</h2>
       </div>
       <div className="about-container">
         <SkillsBox />

@@ -1,33 +1,32 @@
 .navbar {
   display: flex;
-  justify-content: left;
+  justify-content: right;
   gap: 1rem;
   max-width: 1400px;
-  padding-left: 200px;
-  padding-top: 60px;
+  margin: auto;
+  padding: 30px;
 
-   .active {
+  .active {
     border-bottom: 2px solid #7e9fcb;
-    -webkit-animation: slide-active-links 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-active-links 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    }
+    -webkit-animation: slide-active-links 0.45s
+      cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-active-links 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      both;
+  }
   ul {
     display: flex;
     gap: 2em;
 
-  
     a {
       color: rgb(80, 70, 70);
       font-family: "Questrial", sans-serif;
-      font-size: 2em;
+      font-size: 1.2em;
       text-transform: uppercase;
     }
 
     a:hover {
       color: #7e9fcb;
     }
-
-    
   }
 }
 
@@ -38,7 +37,7 @@
     max-width: 1000px;
     padding-top: 20px;
     padding-left: 50px;
-  
+
     ul {
       a {
         font-size: 1.5em;
@@ -54,7 +53,7 @@
     max-width: 900px;
     padding-top: 10px;
     padding-left: 10px;
-  
+
     ul {
       a {
         font-size: 1em;
@@ -70,7 +69,7 @@
     max-width: 500px;
     padding-top: 10px;
     padding-left: 0px;
-  
+
     ul {
       flex-wrap: wrap;
       gap: 1em;
@@ -81,15 +80,14 @@
   }
 }
 
-
-//active underline animation 
+//active underline animation
 @keyframes slide-active-links {
   0% {
     -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    transform: translateZ(0);
   }
   100% {
     -webkit-transform: translateZ(160px);
-            transform: translateZ(160px);
+    transform: translateZ(160px);
   }
 }

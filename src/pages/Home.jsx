@@ -20,25 +20,20 @@ export default function Home() {
       <div className="home-elements">
         <div className="name-container">
           <h1>
-            Jessica <br /> Garrido
+            Jessica Garrido
           </h1>
+          <span>Développeuse web</span>
         </div>
         <div
           className={`profile-pictures ${isActive ? "grayscale-active" : ""}`}
         >
           <img className="grayscale homePicture" src={ProfilePicture} alt="" />
-          <img className="grayscale homePicture homePicture2" src={ProfilePicture2} alt="" />
+          {/* <img className="grayscale homePicture homePicture2" src={ProfilePicture2} alt="" /> */}
         </div>
       </div>
 
       <div className="profile-description">
-        <div className="title-and-citation">
-          <h2><b>Développeuse Web Junior</b></h2>
-          <div>
-            <p className="citation">{citationParts[0]}</p>
-            <p className="author">{citationParts[1]}</p>
-          </div>
-        </div>
+        
 
         <p className="home-description">
           <b>Bienvenus sur mon site en ligne ! </b> <br />
@@ -54,6 +49,11 @@ export default function Home() {
           le parcourir pour mieux me découvrir ! <br />
           <b>Au plaisir d'échanger avec vous !</b>
         </p>
+          <div>
+            <p className="citation">{citationParts[0]}</p>
+            <p className="author">{citationParts[1]}</p>
+          </div>
+        
       </div>
     </div>
   );

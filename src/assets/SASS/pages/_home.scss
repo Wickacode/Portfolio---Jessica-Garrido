@@ -1,24 +1,36 @@
 .home-container {
   .home-elements {
+    padding: 50px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 12em;
+    gap: 8em;
     flex-wrap: wrap;
     height: auto;
     background-color: rgb(126, 159, 203);
-    background-image: url('https://imgur.com/qnBmnQo.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+    background-image: url("https://imgur.com/qnBmnQo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     .name-container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
       width: fit-content;
       height: auto;
       h1 {
         color: rgb(54, 52, 52);
-        font-size: 150px;
+        font-size: 120px;
         font-family: "Questrial", sans-serif;
-        text-shadow: -3px 5px 12px #d1d0cf;
+        text-shadow: -3px 5px 12px #d1d0cf;  
+      }
+     span {
+        color: rgb(254, 254, 254);
+        font-size: 60px;
+        text-shadow: 2px 2px 2px #4e5ab3;
+        font-family: "Questrial", sans-serif;
+        font-weight: 400;
       }
     }
 
@@ -27,7 +39,6 @@
       flex-wrap: wrap;
       gap: 1em;
       width: fit-content;
-      margin-bottom: 30px;
       animation: an 1.3s ease-out 1 both;
 
       .homePicture {
@@ -55,35 +66,20 @@
     height: auto;
     width: 80%;
     margin: auto;
-    padding: 40px 0;
+    padding: 70px 0;
 
-    .title-and-citation {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 1em;
+    .citation {
+      border: 2px solid #7e9fcb;
+      padding: 10px;
+      border-radius: 15px;
+      text-align: center;
+      color: rgb(49, 47, 47);
+      animation: an 1s ease-out 1 both;
+    }
 
-      h2 {
-        color: rgb(42, 41, 41);
-        font-family: "Questrial", sans-serif;
-        font-weight: 400;
-        margin: 0;
-      }
-
-      .citation {
-        border: 2px solid #7e9fcb;
-        padding: 10px;
-        border-radius: 15px;
-        text-align: center;
-        color: rgb(49, 47, 47);
-        animation: an 1s ease-out 1 both;
-      }
-
-      .author {
-        text-align: end;
-        color: rgb(43, 40, 40);
-      }
+    .author {
+      text-align: end;
+      color: rgb(43, 40, 40);
     }
 
     .home-description {
@@ -112,32 +108,30 @@
   .home-container {
     .home-elements {
       gap: 2em;
- 
+
       .name-container {
         h1 {
           font-size: 100px;
         }
       }
-  
+
       .profile-pictures {
         margin-bottom: 0;
-  
+
         .homePicture {
           height: 320px;
           width: 280px;
         }
       }
     }
-  
+
     .profile-description {
       gap: 2em;
-  
+
       .title-and-citation {
-   
         .citation {
           width: 200px;
         }
-
       }
     }
   }
@@ -149,34 +143,33 @@
     .home-elements {
       gap: 1em;
       padding: 30px 0;
- 
+
       .name-container {
         h1 {
           font-size: 70px;
         }
       }
-  
+
       .profile-pictures {
         margin-bottom: 0;
-  
+
         .homePicture {
           height: 220px;
           width: 180px;
         }
       }
     }
-  
+
     .profile-description {
       justify-content: center;
       flex-direction: column;
       gap: 2em;
-      
+
       .title-and-citation {
         margin-top: 30px;
         .citation {
           width: 400px;
         }
-
       }
       .home-description {
         border-left: none;
@@ -202,7 +195,7 @@
           font-size: 70px;
         }
       }
-  
+
       .profile-pictures {
         margin-bottom: 0;
         .homePicture {
@@ -212,12 +205,12 @@
         }
       }
     }
-  
+
     .profile-description {
       justify-content: center;
       flex-direction: column;
       gap: 2em;
-  
+
       .title-and-citation {
         margin-top: 30px;
 
@@ -227,7 +220,6 @@
         .citation {
           width: auto;
         }
-
       }
       .home-description {
         border-left: none;
