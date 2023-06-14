@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
+import LogoJg from "../assets/img/Jessica__2_-removebg-preview.png"
 
 export default function Menu() {
   const location = useLocation();
@@ -12,6 +13,7 @@ export default function Menu() {
 
   return (
     <nav className="navbar">
+      <img  className='logoJg' src={LogoJg} alt="" />
       <ul>
         <li className={currentPageUrl === "/" ? "active" : ""}>
           <Link to="/" className="a01" activeclassname="active-link">

@@ -1,10 +1,14 @@
 .navbar {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   gap: 1rem;
   max-width: 1400px;
   margin: auto;
   padding: 30px;
+
+  .logoJg {
+    width: 50px;
+  }
 
   .active {
     border-bottom: 2px solid #7e9fcb;
