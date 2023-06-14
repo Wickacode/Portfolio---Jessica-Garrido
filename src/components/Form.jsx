@@ -1,32 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import contactImg from "../assets/img/reseaux/contact.jpg";
 import fbLogo from "../assets/img/reseaux/fb.svg";
 import inLogo from "../assets/img/reseaux/inst.svg";
 import gitLogo from "../assets/img/reseaux/github.svg";
 import twLogo from "../assets/img/reseaux/twitter.svg";
 
-//Je définis un état local pour mon formulaire et je le mes à jour lorsque les données sont modifiées
 export default function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  // Récupération des mofifications effectuées par l'utilisateur
-  const handleChange = (event) => {
-    setFormData({
-      ...formData,
-      [event.target.name]: event.target.value,
-    });
-  };
-
-  //Lorsque l'utilisateur soumet un formulaire
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici// Ajoutez votre logique pour envoyer les données au serveur ici
-  };
-
+ 
   return (
     <div className="form-container">
       <div className="text-container">
@@ -42,7 +22,7 @@ export default function ContactForm() {
         <img className="imgtest" src={contactImg} alt="Image de contact" />
       </div>
 
-      <form onSubmit={handleSubmit}>
+      <form netlify netlify-honeypot="bot-field">
         <div>
           <div className="labelContact">
             <label htmlFor="name">Nom</label>
@@ -50,8 +30,7 @@ export default function ContactForm() {
               type="text"
               id="name"
               name="name"
-              value={formData.name}
-              onChange={handleChange}
+
             />
           </div>
           <div className="labelContact">
@@ -60,8 +39,6 @@ export default function ContactForm() {
               type="email"
               id="email"
               name="email"
-              value={formData.email}
-              onChange={handleChange}
             />  
           </div>
           <div className="labelContact">
@@ -69,8 +46,7 @@ export default function ContactForm() {
             <textarea
               id="message"
               name="message"  
-              value={formData.message}
-              onChange={handleChange}
+
             />
           </div>
           <button type="submit">Envoyer</button>
@@ -92,6 +68,10 @@ export default function ContactForm() {
             <img src={twLogo} alt="Logo twitter" />
           </a>
         </div>
+
+        <div className="hidden">
+    <label>Ne pas remplir : <input name="bot-field" /></label>
+  </div>
       </form>
     </div>
   );

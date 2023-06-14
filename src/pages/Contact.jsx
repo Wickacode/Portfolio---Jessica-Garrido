@@ -1,7 +1,5 @@
-import React, {Fragment, useState, useEffect} from "react";
-import axios from 'axios';
+import React from "react";
 import ContactForm from "../components/Form";
-import SocialNetwork from "../components/SocialNetwork";
 
 export default function Contact() {
   return (
