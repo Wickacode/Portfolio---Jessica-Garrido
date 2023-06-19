@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
-import LogoJg from "../assets/img/Jessica__2_-removebg-preview.png"
+import LogoJg from "../assets/img/Jessica__3_-removebg-preview.png"
 
 export default function Menu() {
   const location = useLocation();
